@@ -1,0 +1,19 @@
+generate_og_vamp()
+
+loop for 72000 months
+	if new_year
+		adjust_yearly_variables
+	
+	loop for all humans
+		select_human
+		adjust_stats
+			adjust_age/life_status
+			regen_powerpoints
+	
+	loop for all vamps
+		select_vamp
+		adjust_stats
+		loop if hunger = true
+			perform_hunt
+		
+generate_reports()
